@@ -1,0 +1,116 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+body{
+    background-color: black;
+}
+.cover
+{
+    margin: 80px 0px;
+  text-align: center;
+
+}
+
+#banner
+{
+    height: 40vh;
+
+}
+
+#sec-1
+{
+    text-align: center;
+}
+
+#sec-2
+{
+    margin-top: 50px;
+    text-align: center;
+ 
+}
+
+.proj{
+    display: flex;
+    justify-content: center;
+}
+
+.content
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    border: 3px solid orange;
+}
+
+.content-1
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    border: 3px solid orange;
+}
+
+
+.content-2
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    border: 3px solid orange;
+}
+
+.btn
+{
+    margin-top: 30px;
+}
+
+#sec-3
+{   
+    margin-top: 50px;
+    text-align: center;
+}
+.blog
+{
+    display: flex;
+    justify-content: center;
+}
+.blog-1
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    border: 3px solid orange;
+}
+
+.blog-2
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    border: 3px solid orange;
+}
+
+.blog-3
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    border: 3px solid orange;
+}
+
+footer
+{
+    margin-top: 10px;
+    height: 80px;
+    text-align: center;
+  
+}
+
