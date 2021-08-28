@@ -113,6 +113,20 @@ body{
     
 }
 
+.images
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    
+
+
+}
+
 .instagram
 {
     color: #6C63FF;
