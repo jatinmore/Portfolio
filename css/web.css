@@ -43,15 +43,29 @@ body{
 
 .project-content
 {
-   
+    transition: transform 750ms cubic-bezier(.5,0,.5,1),
+    opacity 250ms linear;
     background-size: 20rem;
     background-repeat: no-repeat;
-
+   
     width: 300px;
     height: 200px;
-    background-color: green;
+    background-color: #F5F5F5;
     margin: 20px;
-    border: 3px solid orange;
+    border: 3px solid white;
+
+    box-shadow: 0.5rem 0.5rem #A6A6AD, -0.5rem -0.5rem #6C63FF;
+}
+
+.project-content h3{
+    color: black;
+}
+
+
+.project-content:hover
+{
+    transform: scale(1.2);
+    
 }
 
 
