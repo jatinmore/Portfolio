@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: whitesmoke;
 }
 
@@ -87,16 +90,37 @@ body{
 }
 .blog-post
 {
+    transition: transform 750ms cubic-bezier(.5,0,.5,1),
+    opacity 250ms linear;
     width: 300px;
     height: 300px;
     padding: 1rem;
-    background-color: green;
+    background-color: #F5F5F5;
     margin: 20px;
-    border: 3px solid orange;
+    border: 3px solid white;
+    
+    box-shadow: 0.5rem 0.5rem #A6A6AD, -0.5rem -0.5rem #6C63FF;
+}
+
+.blog-post p{
+    color: black;
+}
+
+.blog-post:hover
+
+{
+    transform: scale(1.2);
+    
+}
+
+.instagram
+{
+    color: #6C63FF;
 }
 
 footer
 {
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
