@@ -86,14 +86,15 @@ body{
 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
 }
 .blog-post
 {
     transition: transform 750ms cubic-bezier(.5,0,.5,1),
     opacity 250ms linear;
-    width: 300px;
-    height: 300px;
+    width: 60%;
     padding: 1rem;
     background-color: #F5F5F5;
     margin: 20px;
@@ -144,6 +145,10 @@ body{
     text-align: center;
     margin: 10rem;
     
+}
+#title
+{
+    color: black;
 }
 
 footer
